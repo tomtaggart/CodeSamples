@@ -6,3 +6,7 @@ This is a repository of code that I have written traveling a life long path of i
    Files are named ctci-chapterNumber-questionNumber.
 
 # Interesting Problems 
+1.  haversine_UDF.js
+    This file is actually a PostgreSQL UDF written in python then converted to javascript.  It returns a haversine value given two lat/lon degree coordinates from within the database.  The result is used to order the SQL results.
+2.  aspect_UDF.js
+    This file is actually a PostgreSQL UDF written in python then converted to javascript.  It returns a boolean stating whether two astronomical bodies are with a certain degree range of one another on the elliptic as viewed from Earth.
